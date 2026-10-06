@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Feliz primer Día de la Madre</title>
+<meta name="theme-color" content="#f4efe8">
+<style>
+:root{--bg:#f4efe8;--ink:#24211e;--muted:#777069;--card:#fffaf4;--accent:#9a735f;--radius:24px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
+.hero{min-height:100svh;display:grid;place-items:center;padding:32px 22px;text-align:center}.hero-inner{max-width:680px}.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--muted);margin-bottom:22px}.hero h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(42px,12vw,76px);line-height:.98;margin:0 0 22px}.hero p{font-size:18px;color:var(--muted);margin:0 auto 30px;max-width:460px}.btn{display:inline-block;border:0;border-radius:999px;padding:15px 24px;background:var(--ink);color:white;text-decoration:none;font-weight:650;font-size:15px;cursor:pointer}
+main{max-width:980px;margin:auto;padding:0 18px 80px}.chapter{padding:78px 0 20px}.chapter-head{max-width:650px;margin:0 auto 32px;text-align:center}.chapter .num{font-size:12px;letter-spacing:.16em;color:var(--muted);text-transform:uppercase}.chapter h2{font-family:Georgia,serif;font-weight:500;font-size:clamp(34px,8vw,56px);margin:10px 0 12px}.chapter p{color:var(--muted);font-size:17px;margin:0 auto;max-width:600px}
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:10px}.photo{grid-column:span 6;overflow:hidden;border-radius:var(--radius);background:#ddd;min-height:280px}.photo.wide{grid-column:span 12;min-height:360px}.photo.tall{min-height:430px}.photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .7s ease}.photo:hover img{transform:scale(1.015)}
+.break{margin:90px auto 10px;max-width:760px;text-align:center;padding:54px 26px;border-radius:32px;background:var(--card)}.break h3{font-family:Georgia,serif;font-weight:500;font-size:clamp(30px,8vw,50px);margin:0 0 12px}.break p{margin:0;color:var(--muted);font-size:17px}
+.final{min-height:92svh;display:grid;place-items:center;text-align:center;padding:80px 22px}.final-inner{max-width:650px}.final h2{font-family:Georgia,serif;font-size:clamp(42px,11vw,72px);font-weight:500;line-height:1.02;margin:0 0 24px}.final p{font-size:18px;color:var(--muted);max-width:520px;margin:0 auto 28px}.gift{background:var(--accent);font-size:17px;padding:16px 28px}.note{font-size:12px!important;margin-top:14px!important;opacity:.75}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}.reveal.on{opacity:1;transform:none}
+@media(max-width:650px){main{padding-left:12px;padding-right:12px}.chapter{padding-top:58px}.gallery{gap:7px}.photo,.photo.wide{grid-column:span 12;min-height:58svh;border-radius:19px}.photo.pair{grid-column:span 6;min-height:310px}.photo.tall{min-height:65svh}.break{margin-top:64px}.hero p,.chapter p,.final p{font-size:16px}}
+
+.crop-fix img{object-fit:cover;transform:scale(1.32)}.crop-fix:hover img{transform:scale(1.34)}
+.gift-modal{position:fixed;inset:0;background:rgba(25,22,20,.72);display:none;place-items:center;padding:22px;z-index:20;backdrop-filter:blur(7px)}.gift-modal.open{display:grid}.gift-card{width:min(520px,94vw);aspect-ratio:1.58;background:#fff;color:#111;border-radius:26px;padding:34px;box-shadow:0 24px 80px rgba(0,0,0,.28);display:flex;flex-direction:column;justify-content:space-between;position:relative;animation:giftIn .55s cubic-bezier(.2,.8,.2,1)}.zara{font-family:Georgia,serif;font-size:clamp(48px,14vw,84px);letter-spacing:-.09em;line-height:.8}.gift-label{letter-spacing:.2em;font-size:11px;margin-top:14px}.gift-value{font-family:Georgia,serif;font-size:clamp(38px,10vw,62px)}.gift-copy{font-size:14px;color:#555}.close-gift{position:absolute;right:18px;top:16px;border:0;background:transparent;font-size:28px;cursor:pointer;color:#333}@keyframes giftIn{from{opacity:0;transform:translateY(30px) scale(.96)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<section class="hero" id="inicio"><div class="hero-inner reveal"><div class="eyebrow">Día de la Madre · 2026</div><h1>Feliz primer<br>Día de la Madre</h1><p>Antes de llegar al regalo…<br>hagamos un repaso rápido.</p><a class="btn" href="#nosotros">EMPEZAR</a></div></section>
+<main>
+<section class="chapter" id="nosotros"><div class="chapter-head reveal"><div class="num">01 · Nosotros</div><h2>Primeros tiempos</h2><p>Tantos lindos momentos juntos.</p></div><div class="gallery">
+<div class="photo wide reveal"><img src="assets/219307.jpg" alt="Nuestros primeros tiempos"></div>
+<div class="photo pair reveal"><img src="assets/219305.jpg" alt="Nosotros"></div><div class="photo pair reveal"><img src="assets/219303.jpg" alt="Nosotros"></div>
+<div class="photo wide reveal"><img src="assets/219298.jpg" alt="Nosotros"></div></div></section>
+
+<section class="chapter"><div class="chapter-head reveal"><div class="num">02 · Viajes</div><h2>Y viajamos… bastante.</h2><p>Por acá y un poco más lejos también.</p></div><div class="gallery">
+<div class="photo wide reveal"><img src="assets/219300.jpg" alt="Viaje"></div><div class="photo pair reveal"><img src="assets/219324.jpg" alt="Viaje por Argentina"></div><div class="photo pair reveal"><img src="assets/219319.jpg" alt="Viaje por Argentina"></div><div class="photo wide reveal"><img src="assets/219311.jpg" alt="Viaje por Argentina"></div><div class="photo wide reveal"><img src="assets/219326.jpg" alt="Viaje por Argentina"></div>
+<div class="photo pair reveal"><img src="assets/219352.jpg" alt="Viaje"></div><div class="photo pair reveal"><img src="assets/219354.jpg" alt="Viaje"></div><div class="photo wide reveal"><img src="assets/219350.jpg" alt="Viaje"></div><div class="photo pair reveal"><img src="assets/219348.jpg" alt="Viaje"></div><div class="photo pair reveal"><img src="assets/219346.jpg" alt="Viaje"></div><div class="photo wide reveal"><img src="assets/219344.jpg" alt="Viaje"></div><div class="photo pair reveal"><img src="assets/219338.jpg" alt="Viaje"></div><div class="photo pair reveal crop-fix"><img src="assets/219334.jpg" alt="Viaje"></div><div class="photo wide reveal"><img src="assets/219332.jpg" alt="Viaje"></div><div class="photo wide reveal"><img src="assets/219328.jpg" alt="Viaje"></div>
+</div></section>
+
+<section class="chapter"><div class="chapter-head reveal"><div class="num">03 · La casa</div><h2>Y continuamos otro proyecto que casi nos separa 😂</h2><p>Nuestra casa</p></div><div class="gallery">
+<div class="photo wide reveal"><img src="assets/219402.jpg" alt="La obra"></div><div class="photo pair reveal"><img src="assets/219398.jpg" alt="La obra"></div><div class="photo pair reveal"><img src="assets/219400.jpg" alt="La obra"></div><div class="photo wide reveal"><img src="assets/219396.jpg" alt="La obra"></div><div class="photo pair reveal"><img src="assets/219392.jpg" alt="La obra"></div><div class="photo pair reveal"><img src="assets/219390.jpg" alt="La obra"></div><div class="photo wide reveal"><img src="assets/219388.jpg" alt="La obra"></div><div class="photo wide reveal"><img src="assets/219366.jpg" alt="La obra"></div>
+</div><div class="break reveal"><h3>Y quedó así.</h3><p>Y así la estamos disfrutando.</p></div><div class="gallery">
+<div class="photo wide reveal"><img src="assets/219418.jpg" alt="Nuestra casa"></div><div class="photo pair reveal"><img src="assets/219416.jpg" alt="Nuestra casa"></div><div class="photo pair reveal"><img src="assets/219414.jpg" alt="Nuestra casa"></div><div class="photo wide reveal"><img src="assets/219412.jpg" alt="Nuestra casa"></div><div class="photo pair reveal"><img src="assets/219410.jpg" alt="Nuestra casa"></div><div class="photo pair reveal"><img src="assets/219408.jpg" alt="Nuestra casa"></div><div class="photo wide reveal"><img src="assets/219406.jpg" alt="Nuestra casa"></div>
+</div></section>
+
+<section class="chapter"><div class="chapter-head reveal"><div class="num">04 · Eneko</div><h2>Y en el mientras se sumó la bestia!!!</h2></div><div class="gallery">
+<div class="photo pair reveal"><img src="assets/219420.jpg" alt="Eneko cachorro"></div><div class="photo pair reveal"><img src="assets/219422.jpg" alt="Eneko"></div><div class="photo wide reveal"><img src="assets/219424.jpg" alt="Eneko"></div><div class="photo pair reveal"><img src="assets/219426.jpg" alt="Eneko"></div><div class="photo pair reveal"><img src="assets/219428.jpg" alt="Eneko"></div><div class="photo wide reveal"><img src="assets/219430.jpg" alt="Eneko con nosotros"></div><div class="photo pair reveal"><img src="assets/219432.jpg" alt="Eneko"></div><div class="photo pair reveal"><img src="assets/219434.jpg" alt="Eneko"></div><div class="photo wide reveal"><img src="assets/219436.jpg" alt="Eneko"></div>
+</div></section>
+
+<div class="break reveal"><h3>Y cuando parecía que el equipo estaba completo…</h3><p>llegó la noticia más importante.</p></div>
+
+<section class="chapter"><div class="chapter-head reveal"><div class="num">05 · Beltrán</div><h2>Se viene uno más.</h2><p>Y con él, una etapa completamente nueva.</p></div><div class="gallery">
+<div class="photo wide reveal"><img src="assets/219448.jpg" alt="La noticia"></div><div class="photo wide reveal"><img src="assets/219446.jpg" alt="Esperando a Beltrán"></div><div class="photo pair reveal"><img src="assets/219444.jpg" alt="Embarazo"></div><div class="photo pair reveal"><img src="assets/219442.jpg" alt="Embarazo"></div><div class="photo wide reveal"><img src="assets/219440.jpg" alt="Embarazo"></div>
+</div></section>
+</main>
+<section class="final"><div class="final-inner reveal"><div class="eyebrow">Y por eso…</div><h2>Feliz primer Día de la Madre.</h2><p>Beltrán todavía no puede encargarse del regalo, así que este año me tocó darle una mano.</p><button class="btn gift" id="giftLink" type="button">VER REGALO 🎁</button><p class="note">Un regalito para vos, de parte nuestra.</p></div></section>
+
+<div class="gift-modal" id="giftModal" aria-hidden="true"><div class="gift-card"><button class="close-gift" id="closeGift" aria-label="Cerrar">×</button><div><div class="zara">ZARA</div><div class="gift-label">GIFT CARD</div></div><div><div class="gift-value">$200.000</div><div class="gift-copy">Para que te compres lo que quieras ❤️<br><br><small>Vale por una Gift Card de Zara de $200.000 · Entrega física a cargo de papá.</small></div></div></div></div>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+const gm=document.getElementById('giftModal');document.getElementById('giftLink').onclick=()=>{gm.classList.add('open');gm.setAttribute('aria-hidden','false')};document.getElementById('closeGift').onclick=()=>{gm.classList.remove('open');gm.setAttribute('aria-hidden','true')};gm.onclick=e=>{if(e.target===gm)document.getElementById('closeGift').click()};
+</script>
+</body></html>
